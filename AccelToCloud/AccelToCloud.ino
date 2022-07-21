@@ -1,4 +1,8 @@
-//Gravity Acceleration
+/* Name: Christopher Yonek
+ * Course: ELEG298
+ * Assignment: Lab 2 Gravity Acceleration
+ * Date: 3/1/2022
+ */
 #include "LIS3DHTR.h"
 #ifdef SOFTWAREWIRE
     #include <SoftwareWire.h>
