@@ -11,8 +11,8 @@ String espData(String, const int, boolean);
 SoftwareSerial espSerial(11,10);        //Create software UART to talk to the ESP8266
 String IO_USERNAME = "cyonek";          //paste your Adafruit IO username here
 String IO_KEY = "aio_qqNV03iFjscqTJcmhGvWw1l9ZMbN"; //paste your Adafruit IO key here
-String WIFI_SSID = ":)";      //Only need to change if using other network, eduroam won't work with ESP8266
-String WIFI_PASS = "howdoutypethisface";                //Blank for open network
+String WIFI_SSID = "";      //Only need to change if using other network, eduroam won't work with ESP8266
+String WIFI_PASS = "";                //Blank for open network
 float num = 1.0;                        //Counts up to show upload working
 
 void setup()
